@@ -48,7 +48,12 @@ int findMinMarks(vector<int>& marks) {
 }
 
 int main() {
-    vector<int> marks = {90, 85, 95, 80, 75, 100, 70};
+    vector<int> marks;
+
+    marks.push_back(10);
+    marks.push_back(20);
+    marks.push_back(30);
+    marks.push_back(40);
 
     int maxMarks = findMaxMarks(marks);
     int minMarks = findMinMarks(marks);
